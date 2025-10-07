@@ -7,7 +7,7 @@ public class Lab005_Multi_Line_Comment {
         Course :  ATB14x
         Learning :  Java
         */
-
+        // press Ctrl + Shift + / to add a multiline comment
         System.out.println ("Good Morning");
 
         /**

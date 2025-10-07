@@ -5,6 +5,6 @@ public class Lab003_Single_Line_Comment {
         // This is comment, This code will be ignored by the compiler
         //
         // System.out.println(2+2);
-
+//        press Ctrl + / to add a multiline comment
     }
 }
