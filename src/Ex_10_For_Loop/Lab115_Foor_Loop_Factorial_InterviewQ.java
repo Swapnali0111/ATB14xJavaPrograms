@@ -16,6 +16,6 @@ public class Lab115_Foor_Loop_Factorial_InterviewQ {
         for (int i = 1; i <= n ; i++) {
             fact = fact*i;
         }
-        System.out.println("This Factorial of given number is --> " + fact);
+        System.out.println("This Factorial of " + n + " number is --> " + fact);
     }
 }
