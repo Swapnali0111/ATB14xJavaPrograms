@@ -14,8 +14,8 @@ public class Lab173_Cat_OOPs {
         System.out.println(c24.name);
         System.out.println(c25.name);
 
-//        c24.running();
-        c25.running();
+        //c24.running();
+        c25.eating();
         c26.running();
     }
 }
@@ -31,9 +31,12 @@ class Cat {
         this.name = nameParam;
     }
 
-
     void running() {
         int local_var = 10; // Local varaible
         System.out.println("Who is running -> " + this.name);
+    }
+
+    void eating(){
+        System.out.println("I'm eating --> "+ this.name);
     }
 }

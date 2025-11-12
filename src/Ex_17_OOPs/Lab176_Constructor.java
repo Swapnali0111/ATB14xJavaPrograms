@@ -10,12 +10,12 @@ public class Lab176_Constructor {
 class Student {
     String name;
 
-    // DC
+    // Default Constructor
     Student() {
         System.out.println("DC -> Hi, I am called.");
     }
 
-    // PC
+    // Parameterised Constructor
     Student(String name) {
         System.out.println("PC -> Hi," + name);
     }
